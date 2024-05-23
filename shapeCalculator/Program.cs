@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Triangle triangle = new Triangle();
+
+            triangle.a = 5; 
+            triangle.b = 4;
+            triangle.c = 7;
+
+            Console.WriteLine(triangle.getArea());
+            
         }
     }
 }
