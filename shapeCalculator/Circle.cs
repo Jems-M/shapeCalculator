@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace shapeCalculator
 {
-    internal class Circle
+    public class Circle
     {
         public double radius { get; set; }
 

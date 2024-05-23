@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace shapeCalculator
 {
-    internal class Triangle
+    public class Triangle
     {
         public double a {  get; set; }
         public double b { get; set; }
