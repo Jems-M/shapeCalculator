@@ -16,7 +16,7 @@ namespace shapeCalculator
 
         public double getCircumference()
         {
-            return a + b + c;
+            return Math.Round(a + b + c, 4);
         }
 
         public double getArea()
@@ -28,7 +28,7 @@ namespace shapeCalculator
                 return -1; //invalid triangle
             } else
             {
-                return Math.Sqrt(s * (s-a) * (s-b) * (s-c));
+                return Math.Round(Math.Sqrt(s * (s-a) * (s-b) * (s-c)), 4);
             }
 
             

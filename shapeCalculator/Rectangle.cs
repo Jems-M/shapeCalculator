@@ -13,12 +13,12 @@ namespace shapeCalculator
 
         public double getCircumference()
         {
-            return a + b + a + b;
+            return Math.Round(a + b + a + b, 4);
         }
 
         public double getArea()
         {
-            return a * b;
+            return Math.Round(a * b, 4);
         }
     }
 }

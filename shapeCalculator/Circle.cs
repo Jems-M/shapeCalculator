@@ -12,12 +12,12 @@ namespace shapeCalculator
 
         public double getCircumference()
         {
-            return radius * 2 * Math.PI;
+            return Math.Round(radius * 2 * Math.PI, 4);
         }
 
         public double getArea()
         {
-            return radius * radius * Math.PI;
+            return Math.Round(radius * radius * Math.PI, 4);
         }
     }
 }
